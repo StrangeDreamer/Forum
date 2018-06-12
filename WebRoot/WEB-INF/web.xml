@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserCheckServlet</servlet-name>
+    <servlet-class>com.forum.servlet.UserCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTopicByPageServlet</servlet-name>
+    <servlet-class>com.forum.servlet.GetTopicByPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTopicInformationServlet</servlet-name>
+    <servlet-class>com.forum.servlet.GetTopicInformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTopicInfoServlet</servlet-name>
+    <servlet-class>com.forum.servlet.AddTopicInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteInfoServlet</servlet-name>
+    <servlet-class>com.forum.servlet.DeleteInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.forum.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTopicServlet</servlet-name>
+    <servlet-class>com.forum.servlet.AddTopicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IsLoginServlet</servlet-name>
+    <servlet-class>com.forum.servlet.IsLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMessageServlet</servlet-name>
+    <servlet-class>com.forum.servlet.GetMessageServlet</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMsgServlet</servlet-name>
+    <servlet-class>com.forum.servlet.AddMsgServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserCheckServlet</servlet-name>
+    <url-pattern>/UserCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTopicByPageServlet</servlet-name>
+    <url-pattern>/GetTopicByPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTopicInformationServlet</servlet-name>
+    <url-pattern>/GetTopicInformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTopicInfoServlet</servlet-name>
+    <url-pattern>/AddTopicInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteInfoServlet</servlet-name>
+    <url-pattern>/DeleteInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTopicServlet</servlet-name>
+    <url-pattern>/AddTopicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsLoginServlet</servlet-name>
+    <url-pattern>/IsLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMessageServlet</servlet-name>
+    <url-pattern>/GetMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMsgServlet</servlet-name>
+    <url-pattern>/AddMsgServlet</url-pattern>
+  </servlet-mapping>
+  	
+  <welcome-file-list>
+    <welcome-file>GetTopicByPageServlet</welcome-file>
+  </welcome-file-list>
+</web-app>

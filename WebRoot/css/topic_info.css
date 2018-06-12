@@ -1,0 +1,43 @@
+table
+{
+	width:100%;
+	border:1px solid #FFFFFF;
+}
+#topic_main{
+	width: 830px;
+	height: 860px;
+	margin: 10px auto;
+	background-color: #EAEAEA;
+	box-shadow: #666 0px 0px 10px;
+	border-radius: 10px;
+}
+#topic_content{
+	float: left;
+	width: 770px;
+	height:630px;
+	margin-left:30px;
+	margin-top:20px;
+	border-radius: 10px;
+	border:2px solid #DBDBDB;
+	text-align:center;
+}
+#topic_content img{
+	width:25px;
+	height:25px;
+}
+#reply_box{
+	position:fixed;
+	float: left;
+	width: 770px;
+	height:125px;
+	bottom:100px;
+	border:2px solid #DBDBDB;
+}
+#reply_box p{
+	margin-top:5px;
+}
+#reply_box textarea {
+	width: 720px;
+	height: 60px;
+	margin-top: 10px;
+}

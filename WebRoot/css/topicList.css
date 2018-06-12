@@ -1,0 +1,24 @@
+#topicList_content{
+	float: left;
+	width: 770px;
+	height:380px;
+	margin-left:30px;
+	margin-top:20px;
+	border-radius: 10px;
+	border:2px solid #DBDBDB;
+	text-align:center;
+	background-color: #E0FFFF;
+}
+
+table,td,th
+{
+	border:1px solid #FFFFFF;
+}
+table
+{
+	width:100%;
+}
+th
+{
+	height:80px;
+}

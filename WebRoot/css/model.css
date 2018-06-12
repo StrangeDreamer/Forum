@@ -1,0 +1,91 @@
+#main{
+	width: 830px;
+	height: 630px;
+	margin: 80px auto;
+	background-color: #EAEAEA;
+	box-shadow: #666 0px 0px 10px;
+	border-radius: 10px;
+}
+
+/* header */
+#header{
+	float: left;
+	width: 770px;
+	height: 80px;
+	margin-left:30px;
+	margin-top:20px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border:2px solid #DBDBDB;
+	
+}
+
+#header_logo {
+	float: left;
+	margin-left:10px;
+}
+#header_logo img{
+	width:180px;
+	height:80px;
+	border-style:none;
+}
+#header_right{
+	margin-right:20px;
+	margin-top:40px;
+	float: right;
+}
+ #show_user{
+	margin-left:20px;
+	float: right;
+} 
+#main_content{
+	float: left;
+	width: 770px;
+	height:380px;
+	margin-left:30px;
+	margin-top:20px;
+	border-radius: 10px;
+	border:2px solid #DBDBDB;
+	text-align:center;
+}
+
+/* #main_table{
+	position:relative;
+	margin-top:50%;
+	margin-left:50%;
+	
+} */
+#main_table table{
+	width: 250px;
+	height:140px;
+	position:relative;
+	margin-top:10%;
+	margin-left:35%;
+	background-color: #FFFFFF;
+	text-align:center;
+	
+}
+#main_table table caption {
+	height:30px;
+	background-color: #8470FF;
+	
+}
+
+
+/* footer */
+#footer {
+	position:relative;
+	float: left;
+	width: 770px;
+	height:70px;
+	margin-left:30px;
+	margin-top:20px;
+	border-radius: 10px;
+	border:2px solid #DBDBDB;
+	text-align:center;
+	background-color: #FFFFFF;
+}
+label.error{
+	color:red;
+	font-size: 8px;
+}
